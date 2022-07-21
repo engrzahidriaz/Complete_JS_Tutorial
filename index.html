@@ -5,14 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="littleDemo.js" defer></script>
-    <title>Random Color</title>
+    <script src="bubb-capt-dele.js" defer></script>
+    <title> Event Bubbling | Capturing | Delegation </title>
 </head>
 <body>
     <main>
-        <div class="container">
-            <h1>Current Color : <span class="current-color">rgb(255,255,255)</span> </h1>
-            <button>Change Background Color</button>
+        <div class="grandparent box">
+            Grandparent
+            <div class="parent box">
+                Parent
+                <div class="child box">
+                    child
+                </div>
+            </div>
         </div>
     </main>
 </body>
