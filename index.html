@@ -1,100 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- <script src="1.DOM.js" defer></script> -->
-    <!-- <script src="2.getElement.js" defer></script> -->
-    <!-- <script src="3.querySelector.js" defer></script> -->
-    <!-- <script src="4.changeText.js" defer></script> -->
-    <!-- <script src="5.changeStyle.js" defer></script> -->
-    <!-- <script src="6.get-Set.js" defer></script>/ -->
-    <!-- <script src="7.multiElement.js" defer></script> -->
-    <!-- <script src="8.iterateElement.js" defer></script> -->
-    <!-- <script src="9.innerHTML.js" defer></script> -->
-    <!-- <script src="10.classList.js" defer></script> -->
-    <!-- <script src="11.addHTMLelement.js" defer></script> -->
-    <!-- <script src="12.createElement.js" defer></script> -->
-    <!-- <script src="13.adjacentElement.js" defer></script> -->
-    <!-- <script src="14.cloneNodes.js" defer></script> -->
-    <!-- <script src="15.someOldMethod.js" defer></script> -->
-    <!-- <script src="16.static-live.js" defer></script> -->
-    <!-- <script src="17.getDimension.js" defer></script> -->
-    <!-- <script src="18.introEvent.js" defer></script> -->
-    <!-- <script src="19.eventListener.js" defer></script> -->
-    <!-- <script src="22.moreEvent.js" defer></script> -->
-    <script src="24.project.js" defer></script>
-    <title>My Website</title>
-</head>
-<body>
-    <header class="header">
-        <nav class="nav container">
-            <h1 class="Logo">Website</h1>
-            <ul class="nav-items">
-                <li class="nav-item"><a href="#home">Home</a></li>
-                <li class="nav-item"><a href="">Todo</a></li>
-                <li class="nav-item"><a href="">Sign Up</a></li>
-            </ul>
-        </nav>
-        <div class="headline">
-            <h2 id="main-heading">Manage Your Task<span style="display: none;"> Hello</span></h2>
-            <button class="btn btn-headline">Learn More</button>
+<html>
+    <head>
+        <title>DOM Tree traversing </title>
+        <script src="DOMtree.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>My Heading</h1>
+            <p>Some Useful Information</p>
         </div>
-    </header>
-    <section class="todo-section container">
-        <h2>What is Your Plan Today ?</h2>
-        <!-- todo form  -->
-        <form class="form-todo">
-            <input type="text" name="" id="" placeholder="Add Todo">
-            <input type="submit" value="Add Todo" class="btn">
-        </form>
-        <ul class="todo-list">
-            <!-- <li class="first-todo">todo-1</li> -->
-            <!-- <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item 4</li>
-            <li>item 5</li> -->
-            <li>
-                <span class="text">DO This Do That</span>
-                <div class="todo-buttons">
-                    <button class="todo-btn">Done</button>
-                    <button class="todo-btn">Remove</button>
-                </div>
-            </li>
-        </ul> 
-    </section>
-    <section class="section-signup container">
-        <h2>Sign Up</h2>
-        <form class="signupForm">
-            <div class="form-group">
-                <label for="username">User Name</label>
-                <input type="text" name="username" id="username">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-            </div>
-            <div class="form-group">
-                <label for="confirmPassword">Confirm Password</label>
-                <input type="password" name="confirmPassword" id="confirmPassword">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div class="form-group">
-                <label for="phone">Phone</label>
-                <input type="text" name="phone" id="phone">
-            </div>
-            <div class="form-group">
-                <label for="about">About Yourself</label>
-                <textarea name="about" id="about" cols="30" rows="10"></textarea>
-            </div>
-            <button type="submit" class="btn signup-btn">Submit</button>
-        </form>
-    </section>
-</body>
+    </body>
 </html>
